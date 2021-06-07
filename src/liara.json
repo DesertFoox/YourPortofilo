@@ -1,0 +1,7 @@
+{
+  "platform": "netcore",
+  "port": "5000",
+  "netcore": {
+    "version": "5.0"
+  }
+}
