@@ -23,7 +23,7 @@ namespace Infranstructure.Services
 
             SmtpServer.Host = "smtp.iran.liara.ir";
             SmtpServer.Port = 587;
-            SmtpServer.Credentials = new System.Net.NetworkCredential("portofilo", "d19abca0-f262-4160-931d-1d26405a41b9");
+            SmtpServer.Credentials = new System.Net.NetworkCredential("");
             SmtpServer.EnableSsl = true;
 
             SmtpServer.Send(mail);
